@@ -4,7 +4,7 @@ Official code for the paper:
 
 > **"The Value of Sparse Connections in Neural Networks for Weakly Supervised Learning"**
 > Brahim Oubaha, Claude Berrou, Yehya Nasser, Raphaël Le Bidan
-> *IEEE Transactions on Neural Networks and Learning Systems*, 2025 (under review)
+> *IEEE Transactions on Neural Networks and Learning Systems*, 2026 (under review)
 
 ---
 
@@ -145,11 +145,11 @@ See [`weakly_supervised/`](weakly_supervised/) for full argument descriptions.
 If you use this code, please cite:
 
 ```bibtex
-@article{oubaha2025smlp,
+@article{oubaha2026smlp,
   title   = {The Value of Sparse Connections in Neural Networks for Weakly Supervised Learning},
   author  = {Oubaha, Brahim and Berrou, Claude and Nasser, Yehya and Le Bidan, Rapha{\"e}l},
   journal = {IEEE Transactions on Neural Networks and Learning Systems},
-  year    = {2025},
+  year    = {2026},
   note    = {Under review}
 }
 ```
