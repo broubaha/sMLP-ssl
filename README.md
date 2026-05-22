@@ -4,7 +4,7 @@ Official code for the paper:
 
 > **"The Value of Sparse Connections in Neural Networks for Weakly Supervised Learning"**
 > Brahim Oubaha, Claude Berrou, Yehya Nasser, Raphaël Le Bidan
-> *IEEE Transactions on Neural Networks and Learning Systems*, 2026 (under review)
+> *IEEE Transactions on Neural Networks and Learning Systems*, 2026 (Submitted)
 
 ---
 
