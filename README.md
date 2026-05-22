@@ -110,7 +110,7 @@ cd unsupervised
 python mnist_ssl.py --epochs 100 --L1 1600 --L2 1200 --k1 8 --k2 8 --s1 0.85 --s2 0.96
 ```
 
-See [`unsupervised/README.md`](unsupervised/README.md) for full details.
+See [`unsupervised/README_unsupervised.md`](unsupervised/README_unsupervised.md) for full details.
 
 ### Semi-Supervised (CIFAR-10/100, STL-10)
 
