@@ -1,7 +1,8 @@
 # Unsupervised Learning on MNIST with sMLP
 
 This folder contains the unsupervised variant of the sMLP classifier applied to MNIST.
-Unlike the semi-supervised experiments (CIFAR-10/100, STL-10), **no labels are used during training**.
+No external labels are used during training — the model learns from internally generated
+pseudo-labels (Hard-LWTA codes from a frozen model snapshot).
 A small set of labelled prototypes (1, 3, or 10 per class) is used **only at inference time**
 for nearest-neighbour classification via cosine similarity.
 
@@ -106,6 +107,7 @@ wandb.init(project='MNIST SSL', ...)
 
 ## Reference
 
-> B. Oubaha, C. Berrou, Y. Nasser, R. Le Bidan,
-> *"The Value of Sparse Connections in Neural Networks for Weakly Supervised Learning"*,
-> IEEE Transactions on Neural Networks and Learning Systems, 2025 (under review).
+> B. Oubaha, C. Berrou, X. Ji, Y. Nasser, R. Le Bidan,
+> *"On Diversity in Discriminative Neural Networks"*,
+> IEEE 12th International Symposium on Signal, Image, Video and Communications (ISIVC), 2024.
+> DOI: [10.1109/ISIVC61350.2024.10577798](https://doi.org/10.1109/ISIVC61350.2024.10577798)
