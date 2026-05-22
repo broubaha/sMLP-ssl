@@ -15,7 +15,6 @@ from sklearn.metrics import confusion_matrix
 from tqdm import tqdm
 import wandb
 
-from ResNet import *
 from WideResnet import WarmupCosineLrScheduler
 from mnist_dataset import get_data_loader
 
